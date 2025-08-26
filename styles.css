@@ -68,11 +68,18 @@ body {
   font-size: 1.4rem;
   line-height: 1.4;
 }
+.icon-background {
+  z-index: 0;
+}
 .test-1 {
   grid-row: 1 / 2;
   grid-column: 1 / span 2;
   background-color: var(--color-Purple-500);
   color: var(--color-Purple-50);
+  background-image: url("./images/bg-pattern-quotation.svg");
+  background-size: 60;
+  background-position: top right;
+  background-repeat: no-repeat;
 }
 .test-2 {
   background-color: var(--color-Grey-400);
